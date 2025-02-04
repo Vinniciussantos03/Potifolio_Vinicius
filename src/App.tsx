@@ -154,52 +154,56 @@ function App() {
           </div>
         </div>
 
+        
         {/* Projects Section */}
         <div className="mb-8 sm:mb-12">
           <h2 className="text-xl sm:text-2xl font-bold text-[#c4b67c] mb-4 sm:mb-6 text-center">Projetos</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 mb-4 sm:mb-8">
-            <div className="group relative overflow-hidden rounded-lg border border-[#333333]">
-              <img
-                src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb"
-                alt="Projeto 1"
-                className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-[#1a1a1a]/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                <div className="text-center p-4 sm:p-6">
-                  <h3 className="text-lg sm:text-xl font-bold text-[#e5d5a3] mb-2">Automação RPA</h3>
-                  <p className="text-sm sm:text-base text-[#8b8b8b]">Python, Automação de Processos</p>
+          <div className='flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 mb-4 sm:mb-8'>
+            <div className="flex flex-col gap-4 sm:gap-6 md:gap-8">
+              <div className="group relative overflow-hidden rounded-lg border border-[#333333]">
+                <img
+                  src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb"
+                  alt="Projeto 1"
+                  className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-[#1a1a1a]/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="text-center p-4 sm:p-6">
+                    <h3 className="text-lg sm:text-xl font-bold text-[#e5d5a3] mb-2">Automação RPA</h3>
+                    <p className="text-sm sm:text-base text-[#8b8b8b]">Python, Automação de Processos</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-lg border border-[#333333]">
-              <img
-                src="https://images.unsplash.com/photo-1623282033815-40b05d96c903"
-                alt="Projeto 2"
-                className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-[#1a1a1a]/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                <div className="text-center p-4 sm:p-6">
-                  <h3 className="text-lg sm:text-xl font-bold text-[#e5d5a3] mb-2">Sistema de Análise</h3>
-                  <p className="text-sm sm:text-base text-[#8b8b8b]">Java, SQL, Análise de Dados</p>
-                </div>
+              <div className="bg-[#242424] p-4 sm:p-6 rounded-lg border border-[#333333]">
+                <h3 className="text-base sm:text-lg font-semibold text-[#e5d5a3] mb-2 sm:mb-3">Automação RPA</h3>
+                <p className="text-sm sm:text-base text-[#8b8b8b]">
+                  Bot gerador, que consiste em puxar dados, informações, tabelas, filtra-las e mandar todas as informações por e-mail, telegram, seja elas em escopo de e-mail, em arquivo completo xlsx, escalavel e adaptável para sua realidade.
+                </p>
               </div>
             </div>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
-            <div className="bg-[#242424] p-4 sm:p-6 rounded-lg border border-[#333333]">
-              <h3 className="text-base sm:text-lg font-semibold text-[#e5d5a3] mb-2 sm:mb-3">Automação RPA</h3>
-              <p className="text-sm sm:text-base text-[#8b8b8b]">
-                Bot gerador, que consiste em puxar dados, informações, tabelas, filtra-las e mandar todas as informações por e-mail, telegram, seja elas em escopo de e-mail, em arquivo completo xlsx, escalavel e adaptável para sua realidade.
-              </p>
+            <div className="flex flex-col gap-4 sm:gap-6 md:gap-8">
+                <div className="group relative overflow-hidden rounded-lg border border-[#333333]">
+                  <img
+                    src="https://images.unsplash.com/photo-1623282033815-40b05d96c903"
+                    alt="Projeto 2"
+                    className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-[#1a1a1a]/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="text-center p-4 sm:p-6">
+                      <h3 className="text-lg sm:text-xl font-bold text-[#e5d5a3] mb-2">Sistema de Análise</h3>
+                      <p className="text-sm sm:text-base text-[#8b8b8b]">Java, SQL, Análise de Dados</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#242424] p-4 sm:p-6 rounded-lg border border-[#333333]">
+                  <h3 className="text-base sm:text-lg font-semibold text-[#e5d5a3] mb-2 sm:mb-3">Sistema de Análise</h3>
+                  <p className="text-sm sm:text-base text-[#8b8b8b]">
+                    Criação de um sistema completo de análise de dados utilizando Java e SQL, permitindo
+                    visualização e interpretação eficiente de grandes conjuntos de dados empresariais, adaptavel para empresa que será feita.
+                  </p>
+                </div>
             </div>
-            <div className="bg-[#242424] p-4 sm:p-6 rounded-lg border border-[#333333]">
-              <h3 className="text-base sm:text-lg font-semibold text-[#e5d5a3] mb-2 sm:mb-3">Sistema de Análise</h3>
-              <p className="text-sm sm:text-base text-[#8b8b8b]">
-                Criação de um sistema completo de análise de dados utilizando Java e SQL, permitindo
-                visualização e interpretação eficiente de grandes conjuntos de dados empresariais, adaptavel para empresa que será feita.
-              </p>
-            </div>
           </div>
+  
         </div>
 
         {/* Footer */}
